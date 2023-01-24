@@ -1,0 +1,29 @@
+digraph "ScheduleManager::createsBalance"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="ScheduleManager::creates\lBalance",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Complexity = O(n²)"];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="ScheduleManager::classesOfUc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_schedule_manager.html#a0a2990d2fee53be3592461a23ce0d3ba",tooltip="Complexity = O(n)"];
+  Node2 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="Classes_per_uc::get\l_ucCode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_classes__per__uc.html#ad7dc285639f33fad9796309cb686eb16",tooltip="gets the Uc Code, complexity O(1)"];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="Request::getActualClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_request.html#ad55809beb01bf01c52087b4802379c4a",tooltip=" "];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="Request::getPretendedClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_request.html#a7b02f395927210c07751be44d1b3c58c",tooltip=" "];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="Request::getType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_request.html#a64192fbb788c9dcae1e011f85a7c0f67",tooltip=" "];
+  Node1 -> Node7 [color="steelblue1",style="solid"];
+  Node7 [label="ScheduleManager::students\lPerClassOfUc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_schedule_manager.html#ab9796ec4fe9b5f7749cec321d32ab350",tooltip="Complexity = O(n)"];
+  Node7 -> Node8 [color="steelblue1",style="solid"];
+  Node8 [label="Classes_per_uc::get\l_classCode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_classes__per__uc.html#af2d2caaac1992545c5cc9cdd25931ff1",tooltip="gets the Class Code, complexity O(1)"];
+  Node7 -> Node3 [color="steelblue1",style="solid"];
+  Node7 -> Node9 [color="steelblue1",style="solid"];
+  Node9 [label="ScheduleManager::students\lPerClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_schedule_manager.html#a3280e156616c47362e6a8a3e5da842a7",tooltip="complexity O(n + max number of classes of a student) = O(n)"];
+  Node1 -> Node10 [color="steelblue1",style="solid"];
+  Node10 [label="ScheduleManager::students\lPerUc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_schedule_manager.html#a4f1dcd913c220b073ff9e79a180fe686",tooltip="Complexity = O(n + number of classes per student) = O(n)"];
+  Node10 -> Node3 [color="steelblue1",style="solid"];
+}

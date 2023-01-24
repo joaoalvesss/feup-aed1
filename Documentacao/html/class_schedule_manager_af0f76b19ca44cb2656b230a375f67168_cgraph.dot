@@ -1,0 +1,14 @@
+digraph "ScheduleManager::printStudentsPerUc"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="ScheduleManager::printStudents\lPerUc",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="prints in the terminal a UC and a list of its students"];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="Classes_per_uc::get\l_ucCode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_classes__per__uc.html#ad7dc285639f33fad9796309cb686eb16",tooltip="gets the Uc Code, complexity O(1)"];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="ScheduleManager::students\lPerUc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_schedule_manager.html#a4f1dcd913c220b073ff9e79a180fe686",tooltip="Complexity = O(n + number of classes per student) = O(n)"];
+  Node3 -> Node2 [color="steelblue1",style="solid"];
+}

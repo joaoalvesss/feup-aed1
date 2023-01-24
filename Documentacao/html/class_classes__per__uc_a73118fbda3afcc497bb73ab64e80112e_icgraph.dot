@@ -1,0 +1,13 @@
+digraph "Classes_per_uc::Read"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="Classes_per_uc::Read",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="read the file classes_per_uc.csv, complexity O(n)"];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="ScheduleManager::readAll\lFiles",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_schedule_manager.html#a7c0197968ff5d3935fdff25cf5276c66",tooltip="method to call all the read methods to read all the files"];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="ScheduleManager::Schedule\lManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_schedule_manager.html#a01e612817374dc034ba3869d5ab38afb",tooltip="the constructor for the schedule manager class"];
+}

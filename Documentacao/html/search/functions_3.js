@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['get_5fclasscode_0',['get_classCode',['../class_classes__per__uc.html#af2d2caaac1992545c5cc9cdd25931ff1',1,'Classes_per_uc']]],
+  ['get_5fclasses_1',['get_classes',['../class_student.html#ae24cb52bc3ee2c6f63a921107aaea8db',1,'Student']]],
+  ['get_5fstudentcode_2',['get_studentCode',['../class_student.html#a6b9d32745e4a22040364773353158464',1,'Student']]],
+  ['get_5fstudentname_3',['get_studentName',['../class_student.html#af63e97959c77004acbe20302d6ad1a39',1,'Student']]],
+  ['get_5fuccode_4',['get_ucCode',['../class_classes__per__uc.html#ad7dc285639f33fad9796309cb686eb16',1,'Classes_per_uc']]],
+  ['getactualclass_5',['getActualClass',['../class_request.html#ad55809beb01bf01c52087b4802379c4a',1,'Request']]],
+  ['getallclasses_6',['getAllClasses',['../class_schedule_manager.html#a5629011aecba1378c13044fbc26a8aa9',1,'ScheduleManager']]],
+  ['getclass_7',['getClass',['../class_schedule_manager.html#af086538733e4b420293d38a300286dbd',1,'ScheduleManager']]],
+  ['getclasscode_8',['getClassCode',['../class_class.html#a741c8eacce26ceaf0d68e4e5a145be68',1,'Class']]],
+  ['getclassschedule_9',['getClassSchedule',['../class_class.html#ae4b4b4d65d68d3070ebcd3ececb95090',1,'Class']]],
+  ['getduration_10',['getDuration',['../class_slot.html#aea64173d5b077e41c975abe1f682ec12',1,'Slot']]],
+  ['getpretendedclass_11',['getPretendedClass',['../class_request.html#a7b02f395927210c07751be44d1b3c58c',1,'Request']]],
+  ['getrefusedrequests_12',['getRefusedRequests',['../class_schedule_manager.html#a5dcafed5fb9323c9aa76174263cf09ce',1,'ScheduleManager']]],
+  ['getrequests_13',['getRequests',['../class_schedule_manager.html#a8fa2c4a10939c14c3b72f3cef049b7f4',1,'ScheduleManager']]],
+  ['getschedule_14',['getSchedule',['../class_schedule_manager.html#a6a9179622e0f0907cf6b20f74dcfd9c7',1,'ScheduleManager']]],
+  ['getstarthour_15',['getStartHour',['../class_slot.html#a004b0ad47c5b9736857c09a9c5affa15',1,'Slot']]],
+  ['getstudent_16',['getStudent',['../class_schedule_manager.html#ae9e558e49da94f4d5a4e5737dcecc59a',1,'ScheduleManager']]],
+  ['getstudentcode_17',['getStudentCode',['../class_request.html#a5a9953615d3e8fbb377bc13a17b65e57',1,'Request']]],
+  ['getstudents_18',['getStudents',['../class_schedule_manager.html#a686b1b78498fcfd729b544148b668667',1,'ScheduleManager']]],
+  ['getstudentschedule_19',['getStudentSchedule',['../class_schedule_manager.html#a0ea7fea779899bc276416eb51db874e0',1,'ScheduleManager']]],
+  ['gettp_20',['getTP',['../class_class.html#a3974406ebc8252c103188a6b44fc46d1',1,'Class']]],
+  ['gettype_21',['getType',['../class_request.html#a64192fbb788c9dcae1e011f85a7c0f67',1,'Request::getType()'],['../class_slot.html#a91354ab4951435448b52c970e23cad9f',1,'Slot::getType()']]],
+  ['getuccode_22',['getUcCode',['../class_class.html#a42b4ee11c3181b8b5ebc39e9652153f9',1,'Class']]],
+  ['getweekday_23',['getWeekDay',['../class_slot.html#a84e9b353811b044a43fbe8a0b5adb7ed',1,'Slot']]]
+];

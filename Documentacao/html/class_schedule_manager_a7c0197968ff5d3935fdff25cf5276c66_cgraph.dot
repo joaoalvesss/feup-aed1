@@ -1,0 +1,17 @@
+digraph "ScheduleManager::readAllFiles"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="ScheduleManager::readAll\lFiles",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="method to call all the read methods to read all the files"];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="Class::Read",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_class.html#a901cf25a227d5883b498b12f49c53053",tooltip="reads the file classes.csv with help of the method Slot::readSlot, complexity O(n+2) = O(n)"];
+  Node2 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="Slot::readSlot",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_slot.html#a643b0ba06a021c38c9e2f37289292b6b",tooltip="read helper of the method Read presented in Class, complexity O(2) = O(1)"];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="Classes_per_uc::Read",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_classes__per__uc.html#a73118fbda3afcc497bb73ab64e80112e",tooltip="read the file classes_per_uc.csv, complexity O(n)"];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="Student::read",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_student.html#a8952efd8e00de7f69be9e7e7cb7e560d",tooltip="reads students_classes.csv, complexity O(n)"];
+}

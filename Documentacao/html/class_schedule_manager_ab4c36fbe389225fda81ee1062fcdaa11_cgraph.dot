@@ -1,0 +1,23 @@
+digraph "ScheduleManager::classOverlap"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="ScheduleManager::classOverlap",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Complexity = O(1)"];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="ScheduleManager::getClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_schedule_manager.html#af086538733e4b420293d38a300286dbd",tooltip="get a class in the list of all classes per uc, complexity O(n)"];
+  Node2 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="Classes_per_uc::get\l_classCode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_classes__per__uc.html#af2d2caaac1992545c5cc9cdd25931ff1",tooltip="gets the Class Code, complexity O(1)"];
+  Node2 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="Classes_per_uc::get\l_ucCode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_classes__per__uc.html#ad7dc285639f33fad9796309cb686eb16",tooltip="gets the Uc Code, complexity O(1)"];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="Slot::getDuration",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_slot.html#aea64173d5b077e41c975abe1f682ec12",tooltip="gets the duration of a class, complexity O(1)"];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="Slot::getStartHour",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_slot.html#a004b0ad47c5b9736857c09a9c5affa15",tooltip="gets the start hour of a class, complexity O(1)"];
+  Node1 -> Node7 [color="steelblue1",style="solid"];
+  Node7 [label="Class::getTP",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_class.html#a3974406ebc8252c103188a6b44fc46d1",tooltip="a Class only has one TP class per week, and this function gets it, complexity O(2) = O(1)"];
+  Node1 -> Node8 [color="steelblue1",style="solid"];
+  Node8 [label="Slot::getWeekDay",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_slot.html#a84e9b353811b044a43fbe8a0b5adb7ed",tooltip="gets the weekday of a class, complexity O(1)"];
+}
